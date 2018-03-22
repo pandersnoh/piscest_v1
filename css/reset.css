@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; }
+body { color:#ffffff; font-size:14px; font-weight:200; font-family:"Open Sans", "Noto Sans", "Dotum", sans-serif; overflow-y:scroll; }
+h1,h2,h3,h4,h5,h6 { font-family:"Malgun Gothic", serif; }
+input { font-family:"Malgun Gothic", "Dotum", serif; }
+
+a:link, a:visited { text-decoration:none; color:#666666; }
+a:hover, a:focus {  }
+img { border:0 none; }
+li { list-style-type:none; }
+
+header, nav, article, section, aside, footer {display:block;}
+
+.clearfix:after { content:""; display:block; clear:both; }
+
+.mt10 { margin-top:10px !important; }
+.mt20 { margin-top:20px !important; }
+.mt30 { margin-top:30px !important; }
+.mt40 { margin-top:40px !important; }
+.mt50 { margin-top:50px !important; }
+.mt60 { margin-top:60px !important; }
+.mt70 { margin-top:70px !important; }
+.mt80 { margin-top:80px !important; }
+.mt90 { margin-top:90px !important; }

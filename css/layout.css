@@ -1,0 +1,106 @@
+.wrapper { position:relative; }
+
+/* header */
+header { position:fixed; width:100%; background:rgba(255,255,255,0.8); z-index:9999; }
+.nav { width:1000px; height:60px; margin:0px auto; position:relative; }
+.nav h1,h2 {text-indent:-1000em;width: 0px;height: 0px;}
+.nav .logo_black { position:absolute; top:12px; left:8px; }
+.nav .logo_black h1 { background:url('../images/logo_black.png') no-repeat; width:131px; height:35px; }
+.nav .logo_black h1 a { display:block; width:131px; height:35px; }
+.nav .menu { padding-left:580px; padding-top: 15px; padding-bottom: 15px;}
+.nav .menu .menuBox li { float:left;  margin-left:47px;  }
+.nav .menu .menuBox li a { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.04em; line-height:100%;
+							-moz-transition: all 350ms; -o-transition: all 350ms; -webkit-transition: all 350ms; transition: all 350ms;  }
+.nav .menu .menuBox li:hover a { color:#ffffff; }
+.nav .menu .menuBox li.active a { color:#ff5419; }
+
+/* article */
+article { min-width:1000px; min-height:900px; }
+.main_container {background:url('../images/main_bg.jpg');padding-top: 60px; padding-bottom:60px;}
+.main_container .graybox { background:#383838; padding:38px; box-shadow:3px 3px 10px #000000;}
+.main_cont { width:1000px; margin:0px auto; }
+.main_cont > div { margin-bottom:78px; }
+.main_cont .main_head h3 {font-family:"Bebas Regular";font-size:41px;font-weight:200;letter-spacing:0.05em; color:#ffffff; line-height:150%; }
+.main_cont .main_head p { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.02em; color:#a0a0a0; line-height:100%; }
+
+/* visual */
+.visual { border-bottom: 1px solid #6d6d6d; }
+.visualWrap li {width:100%;height:430px;/* position:relative; */}
+.visual_txtWrap {width:1000px;margin:0px auto;height: 100%;position: relative;}
+.visual_txt { text-indent:-1000em; }
+.visual01 {background:url('../images/main_banner01.jpg') no-repeat; background-size:cover;background-position: 30% 20%;}
+.visual01 .visual_txtWrap .visual_txt {width:526px;height:300px;background:url('../images/visual03_txt.png') no-repeat; position: absolute; top: 55%; left:60px; margin-top:-120px;}
+.visual02 {background:url('../images/main_banner02.jpg') no-repeat; background-size:cover;background-position: 30% 20%;}
+.visual02 .visual_txtWrap .visual_txt {width:526px;height:300px;background:url('../images/visual01_txt.png') no-repeat; position: absolute; top: 55%; left:0px; margin-top:-120px;}
+.visual03 {background:url('../images/main_banner03.jpg') no-repeat; background-size:cover;background-position: 30% 20%;}
+.visual03 .visual_txtWrap .visual_txt {width:526px;height:300px;background:url('../images/visual02_txt.png') no-repeat;position: absolute;top: 50%;right: 0px;margin-top:-120px;}
+.visual04 {background:url('../images/main_banner04.jpg') no-repeat; background-size:cover;background-position: 30% 20%;}
+
+/* project */
+#project .project_cont ul li { float:left; margin-right:56px; margin-bottom:56px; }
+#project .project_cont ul li.mr0 { margin-right:0px; }
+#project .project_detail { width:295px; height:320px; background:#ffffff; box-shadow:3px 3px 10px #000000; }
+#project .project_detail a { display:block;width: 295px;height: 219px; background:#000000; }
+#project .project_detail a img.portfolio_img { opacity:0.7; }
+#project .project_detail dl {padding-left: 20px;padding-top: 15px;padding-bottom: 16px;border-top: 1px solid #cccccc;}
+#project .project_detail dl dt {color:#222222;font-size: 18px;font-weight:300;letter-spacing:-1px;line-height:100%;}
+#project .project_detail dl dd.project_part {color:#525252;letter-spacing:-1px;line-height:100%;font-size: 14px;padding-top:3px;}
+#project .project_detail dl dd.project_skill {color:#828282;font-size: 10px;font-weight: 400;font-family: "Open Sans";letter-spacing: -0.05em;line-height:100%;padding-top:20px;}
+
+/* artist */
+#artist .artist_cont:after { content:""; display:block; clear:both; } 
+#artist .artist_img { float:left; }
+#artist .artist_info { float:left; padding-left:80px; }
+#artist .artist_info h4 {font-family:"Bebas Regular";font-size:30px;font-weight:200;letter-spacing:0.05em; color:#ffffff; line-height:150%; padding-bottom:10px; }
+#artist .artist_info ul { float:right; position: relative; left: -50%; }
+#artist .artist_info ul li { position: relative; left: 50%; padding-bottom:10px; }
+#artist .artist_info ul li:after { content:""; display:block; clear:both; }
+#artist .artist_info ul li span { float:left; text-align:left; width:120px; }
+#artist .artist_info ul li p { display:block; float:left; width:400px; padding-left:20px; color:#ff5419; font-weight:200; }
+
+/* music */
+#music .nohemi_disc:after { content:""; display:block; clear:both; }
+#music .album_cover { width:311px; height:311px; float:left; padding-right:30px; }
+#music .album_info { float:left; }
+#music .album_info h4 { font-family:"Open Sans", "Noto Sans", sans-serif; font-size:20px; font-weight:200; letter-spacing:-0.01em; line-height:100%; padding-bottom:10px; }
+#music .album_info .track_list { padding-top:20px; }
+#music .album_info .release_date { padding-top:20px; }
+#music .album_info .album_credits { padding-top:20px; color:#cacaca; font-size:12px; letter-spacing:-0.01em; }
+#music .album_info .album_download { padding-top:20px; font-family:"Steelfish"; font-size:22px; font-weight:200; letter-spacing:0.04em; }
+#music .album_info .album_download:after { content:""; display:block; clear:both; }
+#music .album_info .album_download .down_txt { float:left; padding-right:10px; }
+#music .album_info .album_download .down_url { float:left; }
+#music .album_info .album_download .down_url ul li { text-indent:-1000em; }
+#music .album_info .album_download .down_url ul li.url01 { float:left; padding-right:5px; }
+#music .album_info .album_download .down_url ul li.url01 a {display:block;width: 21px;height: 26px;}
+#music .album_info .album_download .down_url ul li.url01 a.down_naver {background:url('../images/down_naver.jpg') no-repeat;background-position-y: 4px;}
+#music .album_info .album_download .down_url ul li.url02 { float:left; }
+#music .album_info .album_download .down_url ul li.url02 a {display:block;width: 21px;height: 26px;}
+#music .album_info .album_download .down_url ul li.url02 a.down_scloud {background:url('../images/down_scloud.jpg') no-repeat;background-position-y: 4px;}
+
+/* contact */
+#contact .contact_cont h4 { text-align:center; font-family:"Code"; font-weight:200; font-size:42px; }
+#contact .contact_info { padding-top:32px; padding-bottom:50px; }
+#contact .contact_info ul { float:right; position: relative; left: -50%; }
+#contact .contact_info ul li { position: relative; left: 50%; }
+#contact .contact_info ul li:after { content:""; display:block; clear:both; }
+#contact .contact_info ul li span { float:left; min-width:115px; text-align:right; }
+#contact .contact_info ul li a { display:block; float:left; padding-left:20px; color:#ff5419; font-weight:200; }
+#contact .logo_white { text-align:center; }
+
+/* footer */
+footer { background:#000000; }
+.footerWrap { width:1000px; margin:0px auto; padding-top:30px; padding-bottom:60px; }
+.footerWrap .sns { width:735px; margin:0px auto 30px auto; }
+.footerWrap .sns ul { float:right; position: relative; left: -50%; }
+.footerWrap .sns ul li { float: left; position: relative; left: 50%; }
+.footerWrap .sns ul li div { padding-left:36px; padding-right:36px; }
+.footerWrap .sns ul li div a { line-height:100%;font-family:"Steelfish";font-size:20px;font-weight:400;letter-spacing: 0.05em; display:block; }
+.footerWrap .sns ul li div .cross {position:absolute;top:1px;right:0px;width:2px;height:20px;display:block;background:#424242;}
+.footerWrap .copyright {  }
+.footerWrap .copyright p { text-align:center; line-height:100%;font-family:"Steelfish";font-size:20px;font-weight:400;letter-spacing: 0.05em;color:#a0a0a0;}
+.footerWrap .logo_white p { text-align:center; padding-top:40px; }
+.naver { color:#1ede00 !important; }
+.soundcloud { color:#ff5419 !important; }
+.facebook { color:#001eb8 !important; }
+.twitter { color:#00baff !important; }
