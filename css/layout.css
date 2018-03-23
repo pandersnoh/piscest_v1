@@ -1,4 +1,5 @@
 .wrapper { position:relative; }
+.clearfix::after { content:''; display:block; clear:both; }
 
 /* header */
 header { position:fixed; width:100%; background:rgba(255,255,255,0.8); z-index:9999; }
@@ -9,17 +10,17 @@ header { position:fixed; width:100%; background:rgba(255,255,255,0.8); z-index:9
 .nav .logo_black h1 a { display:block; width:131px; height:35px; }
 .nav .menu { padding-left:580px; padding-top: 15px; padding-bottom: 15px;}
 .nav .menu .menuBox li { float:left;  margin-left:47px;  }
-.nav .menu .menuBox li a { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.04em; line-height:100%;
-							-moz-transition: all 350ms; -o-transition: all 350ms; -webkit-transition: all 350ms; transition: all 350ms;  }
-.nav .menu .menuBox li:hover a { color:#ffffff; }
+.nav .menu .menuBox li a { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.04em; line-height:100%; -moz-transition: all 350ms; -o-transition: all 350ms; -webkit-transition: all 350ms; transition: all 350ms;  }
+.nav .menu .menuBox li:hover a { color:#ffffff; text-decoration:none; }
 .nav .menu .menuBox li.active a { color:#ff5419; }
 
 /* article */
 article { min-width:1000px; min-height:900px; }
 .main_container {background:url('../images/main_bg.jpg');padding-top: 60px; padding-bottom:60px;}
-.main_container .graybox { background:#383838; padding:38px; box-shadow:3px 3px 10px #000000;}
+.main_container .graybox { background:#383838; padding:38px; box-shadow:3px 3px 10px #000000;  margin-bottom:50px;}
 .main_cont { width:1000px; margin:0px auto; }
 .main_cont > div { margin-bottom:78px; }
+.main_cont .main_head { margin-bottom:50px; }
 .main_cont .main_head h3 {font-family:"Bebas Regular";font-size:41px;font-weight:200;letter-spacing:0.05em; color:#ffffff; line-height:150%; }
 .main_cont .main_head p { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.02em; color:#a0a0a0; line-height:100%; }
 
@@ -97,7 +98,7 @@ footer { background:#000000; }
 .footerWrap .sns ul li div { padding-left:36px; padding-right:36px; }
 .footerWrap .sns ul li div a { line-height:100%;font-family:"Steelfish";font-size:20px;font-weight:400;letter-spacing: 0.05em; display:block; }
 .footerWrap .sns ul li div .cross {position:absolute;top:1px;right:0px;width:2px;height:20px;display:block;background:#424242;}
-.footerWrap .copyright {  }
+.footerWrap .copyright { margin-top:50px; }
 .footerWrap .copyright p { text-align:center; line-height:100%;font-family:"Steelfish";font-size:20px;font-weight:400;letter-spacing: 0.05em;color:#a0a0a0;}
 .footerWrap .logo_white p { text-align:center; padding-top:40px; }
 .naver { color:#1ede00 !important; }
