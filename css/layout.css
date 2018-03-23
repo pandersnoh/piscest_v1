@@ -1,5 +1,6 @@
 .wrapper { position:relative; }
 .clearfix::after { content:''; display:block; clear:both; }
+ul,li,dt,dd { font-size:14px; }
 
 /* header */
 header { position:fixed; width:100%; background:rgba(255,255,255,0.8); z-index:9999; }
