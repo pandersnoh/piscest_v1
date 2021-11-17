@@ -9,8 +9,8 @@ header { position:fixed; width:100%; background:rgba(255,255,255,0.8); z-index:9
 .nav .logo_black { position:absolute; top:12px; left:8px; }
 .nav .logo_black h1 { background:url('../images/logo_black.png') no-repeat; width:131px; height:35px; }
 .nav .logo_black h1 a { display:block; width:131px; height:35px; }
-.nav .menu { padding-left:580px; padding-top: 15px; padding-bottom: 15px;}
-.nav .menu .menuBox li { float:left;  margin-left:47px;  }
+.nav .menu { padding-left:580px; padding-top: 15px; padding-bottom: 15px; padding-left:572px; }
+.nav .menu .menuBox li { float:left;  margin-left:50px;  }
 .nav .menu .menuBox li a { font-family:"Steelfish"; font-size:26px; font-weight:400; letter-spacing:0.04em; line-height:100%; -moz-transition: all 350ms; -o-transition: all 350ms; -webkit-transition: all 350ms; transition: all 350ms;  }
 .nav .menu .menuBox li:hover a { color:#ffffff; text-decoration:none; }
 .nav .menu .menuBox li.active a { color:#ff5419; }
